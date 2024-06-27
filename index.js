@@ -2,7 +2,7 @@ require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
 const cookieParser = require("cookie-parser");
-const connection = require("./mongoDB");
+const connection = require("./mongodb");
 const graphData = require("./routes/Data");
 const filterData = require("./routes/Filter");
 const topics = require("./routes/Topic");
